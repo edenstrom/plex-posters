@@ -15,9 +15,9 @@ gulp build
 npm start
 ```
 
-Also, check out config.js for changing the host/port to your plex server. Defaults to localhost:32400.
+Also, check out config.js for changing the host/port to your plex server. Defaults to [http://localhost:32400](http://localhost:32400).
 
-Then run open the browser to http://localhost:3000.
+Then run open the browser to [http://localhost:3000](http://localhost:3000).
 
 ## Technologies used
 * React
@@ -55,4 +55,4 @@ There's also hot reloading for both react and redux.
 npm run dev
 ```
 
-Then open the browser to http://localhost:8080
+Then open the browser to [http://localhost:8080](http://localhost:8080).
