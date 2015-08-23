@@ -1,0 +1,27 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: $plex-black;
+
+  ul {
+    display: flex;
+  }
+
+  li {
+    display: block;
+    margin-right: 1em;
+    cursor: pointer;
+  }
+
+  a {
+    color: $gray;
+    text-decoration: none;
+
+    &.active {
+      color: $primary-color;
+    }
+  }
+}

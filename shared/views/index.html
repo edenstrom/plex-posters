@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Plex posters!</title>
+  <script>
+    window.__INITIAL_STATE__ = {{ JSON.stringify(initialState) }};
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+  <div id="react-view">{{ html | safe }}</div>
+  <script src="/bundle.js"></script>
+  <!-- <link rel="stylesheet" href="/css/app.css"> -->
+</body>
+</html>

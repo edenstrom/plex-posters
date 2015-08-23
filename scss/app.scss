@@ -1,0 +1,14 @@
+@import "vendor/normalize";
+@import "vendor/media-queries";
+@import "theme";
+@import "components/Media";
+@import "components/Posters";
+@import "components/Header";
+
+header {
+}
+
+html {
+  background-color: $plex-black;
+  font-family: "Helvetica Neue", Open Sans, Helvetica, Arial, sans-serif;
+}
