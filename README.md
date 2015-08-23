@@ -2,9 +2,15 @@
 
 This is a project made with React and Redux for changing a lot of posters in your Plex (http://plex.tv) library.
 
+## Prerequisite
+
+* A working plex server on the local network.
+* libvips for sharp. Used for image resizing. Check out installation instructions here: http://sharp.dimens.io/en/stable/install/
+
 ## Getting started
 
 Before trying this you need to have access to a plex server on the local network, or else you won't see anything.
+
 
 ```
 git clone https://github.com/edenstrom/plex-posters
